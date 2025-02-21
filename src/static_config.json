@@ -1,0 +1,37 @@
+[
+  {
+    "path": "$.connectorAttributes.tenantTimeZones",
+    "operation": "update",
+    "value": ["IN", "US", "CA"]
+  },
+  {
+    "path": "$.connectorAttributes.someBooleanFlag",
+    "operation": "update",
+    "value": true
+  },
+  {
+    "path": "$.owner.department",
+    "operation": "update",
+    "value": "Global IT"
+  },
+  {
+    "path": "$.connectorAttributes.templateApplication",
+    "operation": "remove"
+  },
+  {
+    "path": "$.created",
+    "operation": "remove"
+  },
+  {
+    "path": "$.modified",
+    "operation": "remove"
+  },
+  {
+    "path": "$.since",
+    "operation": "remove"
+  },
+  {
+    "path": "$.connectorAttributes.since",
+    "operation": "remove"
+  }
+]
